@@ -1,0 +1,266 @@
+body {
+    height: 1000px;
+}
+* {
+    box-sizing: border-box;
+}
+/* house relative */
+.house__woll_relative {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}
+.house__roof_relative {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid black;
+}
+.windows_relative {
+    position: relative;
+    margin: 20px 15px 0;
+}
+.woll__window_relative1 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+}
+.woll__window_relative2 {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    left: 115px;
+    top: -49px;
+}
+.window__frame_relative {
+    position: relative;
+    background: black;
+    height: 48px; 
+    width: 2px;
+    right: 15px;
+    left: 21px;
+}
+.door_relative {
+    position: relative;
+}
+.woll__door_relative {
+    position: relative;
+    width: 50px;
+    height: 100px;
+    border: 2px solid black;
+    top: -22px;
+    left: 72px;
+}
+.door__hendl_relative {
+    position: relative;
+    width: 5px; 
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    margin: 50px 0 0 41px;
+}
+/* house apsolute */
+.house__woll_apsolute {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 210px;
+    margin-top: -200px; 
+}
+.house__roof_apsolute {
+    margin-left: 210px;
+    margin-top: -300px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid black;
+}
+.windows_apsolute {
+    position: absolute;
+    margin: 20px 15px 0;
+}
+.woll__window_apsolute1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+}
+.woll__window_apsolute2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    left: 115px;
+    top: 1px;
+}
+.window__frame_apsolute {
+    position: absolute;
+    background: black;
+    height: 48px; 
+    width: 2px;
+    right: 15px;
+    left: 21px;
+}
+.door_apsolute {
+    position: absolute;
+}
+.woll__door_apsolute {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    border: 2px solid black;
+    left: 72px;
+    top: 98px;
+}
+.door__hendl_apsolute {
+    position: absolute;
+    width: 5px; 
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    margin: 50px 0 0 41px;
+}
+/* house fixed */
+.house__woll_fixed {
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin-left: 210px;
+    margin-top: -200px; 
+    bottom: 0;
+    top: 308px;
+    left: 218px;
+}
+.house__roof_fixed {
+    margin-left: 210px;
+    margin-top: -300px;
+    position: fixed;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid black;
+    top: 308px;
+    left: 218px;
+}
+.woll__window_fixed1 {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    top: 130px;
+    left: 447px;
+}
+.woll__window_fixed2 {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    top: 131px;
+    left: 560px;
+}
+.window__frame_fixed1 {
+    position: fixed;
+    background: black;
+    height: 48px; 
+    width: 2px;
+    left: 470px;
+}
+.window__frame_fixed2 {
+    position: fixed;
+    background: black;
+    height: 48px; 
+    width: 2px;
+    left: 583px;
+}
+.door_fixed {
+    position: fixed;
+}
+.woll__door_fixed {
+    position: fixed;
+    width: 50px;
+    height: 100px;
+    border: 2px solid black;
+    left: 504px;
+    top: 208px;
+}
+.door__hendl_fixed {
+    position: fixed;
+    width: 5px; 
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    margin: 50px 0 0 41px;
+}
+/* house static */
+.house__woll_static {
+    position: static;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 0px 0px 0px 633px;
+}
+.house__roof_static {
+    margin: -301px 0px 0px 633px;
+    position: static;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid black;
+}
+.woll__window_static1 {
+    position: static;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 20px 0px 0px 15px;
+}
+.woll__window_static2 {
+    position: static;
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    margin: -49px 0px 27px 131px;
+}
+.window__frame_static1 {
+    position: static;
+    background: black;
+    height: 48px;
+    width: 2px;
+    margin: -1px 0px 0px 21px;
+}
+.window__frame_static2 {
+    position: static;
+    background: black;
+    height: 48px; 
+    width: 2px;
+    margin: -1px 0px 0px 21px;
+}
+.door_static {
+    position: static;
+}
+.woll__door_static {
+    position: static;
+    width: 50px;
+    height: 100px;
+    border: 2px solid black;
+    margin-left: 74px;
+}
+.door__hendl_static {
+    position: static;
+    width: 5px; 
+    height: 5px;
+    background: black;
+    border-radius: 50%;
+    margin: 50px 0 0 41px;
+}
